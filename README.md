@@ -16,3 +16,7 @@ cargo run -- list
 cargo run -- complete 1
 cargo run -- delete 1
 cargo run -- --help
+
+## Run Test
+```bash
+cargo test -- --test-threads=1
